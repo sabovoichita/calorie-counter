@@ -17,6 +17,8 @@ function isInvalidInput(str) {
   return str.match(regex);
 }
 
+function addEntry() {}
+
 console.log(calorieCounter);
 console.log(budgetNumberInput);
 console.log(entryDropdown);
@@ -25,4 +27,4 @@ console.log(clearButton);
 console.log(output);
 // console.log(cleanInputString("+-99"));
 // console.log(isInvalidInput("10"));
-console.log(entryDropdown.value);
+// console.log(entryDropdown.value);
