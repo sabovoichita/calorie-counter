@@ -31,6 +31,8 @@ function addEntry() {
   targetInputContainer.innerHTML += HTMLString;
 }
 
+addEntryButton.addEventListener("click", addEntry);
+
 console.log(calorieCounter);
 console.log(budgetNumberInput);
 console.log(entryDropdown);
