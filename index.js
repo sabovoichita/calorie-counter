@@ -111,6 +111,8 @@ function clearForm() {
 
 addEntryButton.addEventListener("click", addEntry);
 calorieCounter.addEventListener("submit", calculateCalories);
+clearButton.addEventListener("click", clearForm);
+
 // console.log(calorieCounter);
 // console.log(budgetNumberInput);
 // console.log(entryDropdown);
