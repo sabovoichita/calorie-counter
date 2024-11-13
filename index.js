@@ -25,3 +25,4 @@ console.log(clearButton);
 console.log(output);
 // console.log(cleanInputString("+-99"));
 // console.log(isInvalidInput("10"));
+console.log(entryDropdown.value);
