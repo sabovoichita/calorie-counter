@@ -35,7 +35,10 @@ function addEntry() {
   );
 }
 
-function calculateCalories(e) {}
+function calculateCalories(e) {
+  e.preventDefault();
+  isError = false;
+}
 
 function getCaloriesFromInputs(list) {
   let calories = 0;
