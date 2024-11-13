@@ -35,6 +35,8 @@ function addEntry() {
   );
 }
 
+function getCaloriesFromInputs(list) {}
+
 addEntryButton.addEventListener("click", addEntry);
 
 // console.log(calorieCounter);
