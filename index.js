@@ -17,7 +17,9 @@ function isInvalidInput(str) {
   return str.match(regex);
 }
 
-function addEntry() {}
+function addEntry() {
+  const targetId = "#" + entryDropdown.value;
+}
 
 console.log(calorieCounter);
 console.log(budgetNumberInput);
