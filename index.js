@@ -12,7 +12,9 @@ function cleanInputString(str) {
   return str.replace(regex, "");
 }
 
-function isInvalidInput(str) {}
+function isInvalidInput(str) {
+  const regex = /e/;
+}
 
 console.log(calorieCounter);
 console.log(budgetNumberInput);
