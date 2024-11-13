@@ -35,6 +35,8 @@ function addEntry() {
   );
 }
 
+function calculateCalories(e) {}
+
 function getCaloriesFromInputs(list) {
   let calories = 0;
 
