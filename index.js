@@ -12,6 +12,8 @@ function cleanInputString(str) {
   return str.replace(regex, "");
 }
 
+function isInvalidInput(str) {}
+
 console.log(calorieCounter);
 console.log(budgetNumberInput);
 console.log(entryDropdown);
