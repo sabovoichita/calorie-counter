@@ -98,7 +98,7 @@ function getCaloriesFromInputs(list) {
 }
 
 addEntryButton.addEventListener("click", addEntry);
-calorieCounter.addEventListener("submit", calculateCalories());
+calorieCounter.addEventListener("submit", calculateCalories);
 // console.log(calorieCounter);
 // console.log(budgetNumberInput);
 // console.log(entryDropdown);
