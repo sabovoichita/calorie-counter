@@ -18,6 +18,7 @@ function isInvalidInput(str) {
 }
 
 function addEntry() {
+  console.log("enterying new entries");
   const targetInputContainer = document.querySelector(
     `#${entryDropdown.value} .input-container`
   );
@@ -28,17 +29,17 @@ function addEntry() {
   <label for="${entryDropdown.value}-${entryNumber}-calories">Entry ${entryNumber} Calories</label>
   <input type="number" min="0" placeholder="Calories" id="${entryDropdown.value}-${entryNumber}-calories"/>
   `;
-  targetInputContainer.innerHTML += HTMLString;
+  targetInputContainer += targetInputContainer.insertAdjacentHTML();
 }
 
 addEntryButton.addEventListener("click", addEntry);
 
-console.log(calorieCounter);
-console.log(budgetNumberInput);
-console.log(entryDropdown);
-console.log(addEntryButton);
-console.log(clearButton);
-console.log(output);
+// console.log(calorieCounter);
+// console.log(budgetNumberInput);
+// console.log(entryDropdown);
+// console.log(addEntryButton);
+// console.log(clearButton);
+// console.log(output);
 // console.log(cleanInputString("+-99"));
 // console.log(isInvalidInput("10"));
 // console.log(entryDropdown.value);
