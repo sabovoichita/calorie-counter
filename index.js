@@ -24,3 +24,4 @@ console.log(addEntryButton);
 console.log(clearButton);
 console.log(output);
 // console.log(cleanInputString("+-99"));
+console.log(isInvalidInput("1e3"));
